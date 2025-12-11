@@ -31,11 +31,40 @@ Este desafio faz parte da formação de GitHub da DIO e tem como objetivo:
 ```
 desafio-github-copilot-codspace-dio/
 ├── README.md
-├── algoritmos/
-│   └── (Desafios serão adicionados aqui)
-└── solucoes/
-    └── (Soluções serão adicionadas aqui)
+└── .vscode/
+    ├── repet_txt.py        # Solicita string e inteiro, repete com espaço
+    ├── ope_mat.py          # Operações matemáticas simples
+    ├── num_par_impar.py    # Verifica paridade de números
+    ├── media_notas.py      # Calcula média de três notas
+    └── palindromo.py       # Verifica se palavra é palíndromo
 ```
+
+## 📂 Desafios Implementados
+
+### 1. **repet_txt.py**
+- Solicita como entrada uma string e um número inteiro
+- Repete a string o número de vezes especificado, separando com espaço
+- Exemplo: `"oi"` × 3 = `"oi oi oi"`
+
+### 2. **ope_mat.py**
+- Solicita como entrada dois números
+- Realiza operações matemáticas simples: adição, subtração, multiplicação e divisão
+- Trata caso especial de divisão por zero
+
+### 3. **num_par_impar.py**
+- Solicita como entrada um número inteiro
+- Verifica se o número é par ou ímpar usando operador módulo
+- Utiliza condicionais `if/else` para a verificação
+
+### 4. **media_notas.py**
+- Solicita três notas de entrada (0-10)
+- Calcula a média utilizando operadores aritméticos
+- Exibe a média com duas casas decimais e situação do aluno (aprovado/recuperação/reprovado)
+
+### 5. **palindromo.py**
+- Solicita uma palavra como entrada
+- Inverte a palavra usando slicing de strings
+- Compara a palavra original com a invertida para verificar se é palíndromo
 
 ## 💡 Dicas para Usar GitHub Copilot
 
